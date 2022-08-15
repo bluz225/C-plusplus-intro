@@ -4,7 +4,7 @@
 - The purpose of this git repo is document my introduction into C++ programming language.
 
 ## Method
-- Youtube Videos to familiarize myself
+- Youtube Videos to familiarize myself with syntax and how to write basic functions, work with arrays and objects
 
 ## Acceptance Criteria
 - N/A
