@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string>
 using namespace std;
 
 int sumFunction(float val1, float val2){
@@ -13,7 +12,13 @@ int subFunction(float val1, float val2) {
 }
 
 int main(){
+    string name, fullName;
     float input1, input2;
+
+    cout << "What is your name? ";
+    // cin >> fullName;
+    getline(cin,fullName);
+
     // input first value
     cout << "input first value to sum: ";
     cin >> input1;
@@ -25,7 +30,8 @@ int main(){
     // float sub = subFunction(input1,input2);
     // cout << "the sum is " << sub;
     // cerr << "error message: something is wrong" << endl;
-    cout << "the sum is " << sum;
+    cout << "your name is " << fullName << endl;
+    cout << "the sum is " << sum << endl;
     // not sure why the sum isnt a float when the input and declaration is float
     return 0;
 }
