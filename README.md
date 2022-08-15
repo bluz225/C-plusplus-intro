@@ -8,3 +8,6 @@
 
 ## Acceptance Criteria
 - N/A
+
+## What I learned
+- in this session, I learned how to set up VS code to create, compile and execute C++ code
